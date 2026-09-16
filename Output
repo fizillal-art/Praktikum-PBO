@@ -1,0 +1,47 @@
+cd C:\Users\user\Documents\NetBeansProjects\PraktikumPBO; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=TugasP2.Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:PraktikumPBO >---------------------
+Building PraktikumPBO 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ PraktikumPBO ---
+skip non existing resourceDirectory C:\Users\user\Documents\NetBeansProjects\PraktikumPBO\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ PraktikumPBO ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.6.3:exec (default-cli) @ PraktikumPBO ---
+Masukkan jumlah siswa: 4
+
+Data siswa ke-1:
+Masukkan nama: Adi
+Masukkan nilai: 90
+Siswa: Adi - Nilai: 90.0 - Lulus
+
+Data siswa ke-2:
+Masukkan nama: Budi
+Masukkan nilai: 55
+Siswa: Budi - Nilai: 55.0 - Tidak Lulus
+
+Data siswa ke-3:
+Masukkan nama: Cilla
+Masukkan nilai: 85
+Siswa: Cilla - Nilai: 85.0 - Lulus
+
+Data siswa ke-4:
+Masukkan nama: David
+Masukkan nilai: 75
+Siswa: David - Nilai: 75.0 - Lulus
+
+==================================
+Rata-rata nilai kelas: 76.25
+Jumlah siswa lulus: 3
+Jumlah siswa tidak lulus: 1
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  51.652 s
+Finished at: 2026-09-16T20:03:04+07:00
+------------------------------------------------------------------------
