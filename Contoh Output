@@ -1,0 +1,33 @@
+===================================
+    INPUT DATA BILLING WARNET      
+===================================
+Masukkan nama pelanggan  : jeki
+Masukkan lama main (jam) : 8
+Pilih paket (R = Reguler / V = VIP): v
+
+=== MENU SNACK WARNET ===
+1. Indomie Rebus - Rp 10000
+2. Es Teh Manis - Rp 3000
+3. Kopi Susu - Rp 5000
+0. Tidak beli snack
+=========================
+Pilih nomor snack (0 jika tidak beli): 1
+-> Berhasil membeli: Indomie Rebus (Rp 10000)
+
+===================================
+      STRUK PEMBAYARAN WARNET      
+===================================
+Nama Pelanggan : JEKI (4 huruf)
+Jenis Paket    : v (R=Reguler, V=VIP)
+Lama Bermain   : 8 jam
+Snack Dibeli   : Indomie Rebus (Rp 10000)
+-----------------------------------
+TOTAL BAYAR    : Rp 74000.0
+===================================
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  22.484 s
+Finished at: 2026-09-25T19:34:18+07:00
+------------------------------------------------------------------------
