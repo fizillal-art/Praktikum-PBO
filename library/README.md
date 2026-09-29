@@ -29,9 +29,10 @@ Aplikasi perpustakaan sederhana berbasis **Java (console/terminal)** yang dibuat
 
 | Keterangan   | Isi                                   |
 | ------------ | ------------------------------------- |
-| Nama         | *(isi nama kamu)*                     |
-| NIM          | *(isi NIM kamu)*                      |
-| Kelas        | *(isi kelas kamu)*                    |
+| Nama         | *Fizillal Kamal Arsad Purwanto*       |
+| NIM          | *L0325046*                            |
+| Prodi        | *Informatika PSDKU Kebumen            |
+| Kelas        | *B*                                   |
 | Mata Kuliah  | Praktikum Pemrograman Berorientasi Objek |
 
 ---
