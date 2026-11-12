@@ -1,0 +1,11 @@
+=== LAPORAN NILAI MAHASISWA ===
+No   NIM          Nama                      Nilai    Grade  Status
+------------------------------------------------------------------------
+1    0325         JEKI                      99.00    A      Lulus
+2    0324         FEBRI                     80.00    B      Lulus
+------------------------------------------------------------------------
+STATISTIK KELAS
+Jumlah mahasiswa      : 2
+Rata-rata nilai kelas : 89.50
+Jumlah lulus          : 2
+Jumlah tidak lulus    : 0
