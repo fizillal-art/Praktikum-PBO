@@ -1,0 +1,51 @@
+cd C:\Users\user\Documents\NetBeansProjects\PraktikumPBO; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=TugasP6.LaporanNilaiSiswa -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:PraktikumPBO >---------------------
+Building PraktikumPBO 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ PraktikumPBO ---
+skip non existing resourceDirectory C:\Users\user\Documents\NetBeansProjects\PraktikumPBO\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ PraktikumPBO ---
+Recompiling the module because of changed source code.
+Compiling 13 source files with javac [debug release 26] to target\classes
+
+--- exec:3.6.3:exec (default-cli) @ PraktikumPBO ---
+=== PENGELOLAAN NILAI SISWA ===
+Masukkan jumlah siswa: 3
+
+Data siswa ke-1
+  Nama siswa: Jeki
+  Nilai siswa ke-1 (0-100): 99
+
+Data siswa ke-2
+  Nama siswa: Febri
+  Nilai siswa ke-2 (0-100): 80
+
+Data siswa ke-3
+  Nama siswa: Hida
+  Nilai siswa ke-3 (0-100): 60.5
+
+Data berhasil ditulis ke file laporan_nilai.txt
+
+=== ISI FILE laporan_nilai.txt ===
+=== LAPORAN NILAI SISWA ===
+No   Nama                      Nilai    Status      
+-------------------------------------------------------
+1    Jeki                      99.00    Lulus       
+2    Febri                     80.00    Lulus       
+3    Hida                      60.50    Tidak Lulus 
+-------------------------------------------------------
+RINGKASAN
+Rata-rata nilai kelas : 79.83
+Jumlah siswa lulus    : 2
+Jumlah tidak lulus    : 1
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:38 min
+Finished at: 2026-11-12T15:06:51+07:00
+------------------------------------------------------------------------
