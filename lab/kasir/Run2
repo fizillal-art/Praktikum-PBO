@@ -1,0 +1,34 @@
+cd C:\Users\user\Documents\NetBeansProjects\PraktikumPBO; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=lab.kasir.MainKasir -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:PraktikumPBO >---------------------
+Building PraktikumPBO 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ PraktikumPBO ---
+skip non existing resourceDirectory C:\Users\user\Documents\NetBeansProjects\PraktikumPBO\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ PraktikumPBO ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.6.3:exec (default-cli) @ PraktikumPBO ---
+=== TAHAP 1: Uji Pesanan ===
+Subtotal : 45000.0
+Total    : 45000.0 (tanpa diskon)
+Subtotal : 70000.0
+Total    : 63000.0 (diskon 10%)
+Setelah reset, subtotal: 0.0
+
+=== TAHAP 2: Dua Kasir (Thread) ===
+Kasir Dina melayani pelanggan ke-1
+Kasir Eko melayani pelanggan ke-1
+Kasir Dina melayani pelanggan ke-2
+Kasir Eko melayani pelanggan ke-2
+Kasir Dina melayani pelanggan ke-3
+Kasir Eko melayani pelanggan ke-3
+Kasir Dina melayani pelanggan ke-4
+Kasir Eko melayani pelanggan ke-4
+Kasir Eko melayani pelanggan ke-5
+Kasir Dina melayani pelanggan ke-5
+Semua pelanggan selesai dilayani
