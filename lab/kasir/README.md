@@ -1,4 +1,4 @@
-# Praktikum PBO Kelas 3B: Pertemuan 11 dan 12
+# Praktikum PBO Kelas 3B: LabSession Pertemuan 11 dan 12
 ## Studi Kasus: Sistem Kasir Kantin UNS
 
 | | |
